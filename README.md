@@ -312,7 +312,6 @@ https://github.com/join
 https://github.com/paven/git2-exercise
 
 
-
 then [clone](https://help.github.com/articles/cloning-a-repository/) your for https://github.com/<you>/git2-exercise
 ```
 make sure you are at the master branch
@@ -402,7 +401,32 @@ git add coleage git clone https://github.com/<colleage>/git2-exercise
 1. write a commit and post it to A's remote
 2. rebase A's rebaseMeCollege on to B's master
 
-## Excercise 7
+## Exercise 7
+
+### Submodule
+
+add an existing repo/branch as a submodule
+```bash
+git submodule add -b submoduleBranch https://github.com/paven/git2-exercise.git theModule
+```
+meta information in repo
+```bash
+cat .gitmodules
+ls .git/modules/
+```
+init
+```bash
+git submodule init
+```
+
+Then commit the added submodule 
+```bash
+git commit -m "add submodule"
+```
+
+---
+
+## Exercise 8
 
 ### look
 Open your personal
