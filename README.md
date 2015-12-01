@@ -397,6 +397,7 @@ https://help.github.com/articles/adding-collaborators-to-a-personal-repository/
 Adds A's remote to B's local repository.
 ```bash
 git add coleage git clone https://github.com/<colleage>/git2-exercise
+cd git2-exercise
 ```
 1. write a commit and post it to A's remote
 2. rebase A's rebaseMeCollege on to B's master
