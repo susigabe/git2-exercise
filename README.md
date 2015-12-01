@@ -333,7 +333,7 @@ git push
 ###now with rebase
 
 ```bash
-git checkout rebaseMe
+git checkout -b rebaseMe origin/rebaseMe
 git rebase master
 git checkout master
 git merge --ff-only
