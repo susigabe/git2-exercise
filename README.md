@@ -236,12 +236,13 @@ git checkout ex4
 Create a new commit
 ```bash
 touch ex4.txt
-git commit -m "another commit!" ex4.txt
+git add ex4.txt
+git commit -m "another commit!" 
 ```
 
 look at your log
 ```bash
-git log --oneline -graph
+git log --oneline --graph
 ```
 
 ### view the difference between your branches
