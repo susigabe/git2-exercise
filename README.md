@@ -215,10 +215,11 @@ git branch ex4
 
 ### work on master
 
-Create a new commit on master (with a faster syntax)
+Create a new commit on master 
 ```bash
 touch ex4master.txt
-git commit -m "another commit!" ex4master.txt
+git add ex4master.txt
+git commit -m "another commit!"
 ```
 
 look at your log
