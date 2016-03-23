@@ -460,5 +460,6 @@ You can try your editor config out by doing a commit without a predifined commit
 git config core.editor nano
 ```
 
-
+## Recomended exercise
+https://try.github.io/
 
